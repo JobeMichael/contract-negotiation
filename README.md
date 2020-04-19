@@ -2,7 +2,7 @@
 
  [Demo URL](https://jobemichael.github.io/76c34cf7/index.html)
  
- or you can run locally and you can find instructions below.
+ or you can run locally and please find the instructions below to run locally.
 
 ## Available Scripts
 
@@ -15,7 +15,7 @@ yarn start
 
 ### `yarn`
 
-to install package
+to install packages
 
 ### `yarn start`
 
