@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ModalContainer/> renders Modal properly 1`] = `
+<body>
+  <div>
+    <div
+      class="sc-AxhCb fSeUtm"
+    />
+    <div
+      class="sc-AxjAm fuyJBj"
+    >
+      <div
+        class="sc-AxhUy jkkAyo"
+      >
+        <a>
+          Close
+        </a>
+      </div>
+      <div
+        class="sc-AxirZ kZUdNH"
+      >
+        <span>
+          Children
+        </span>
+      </div>
+    </div>
+  </div>
+</body>
+`;

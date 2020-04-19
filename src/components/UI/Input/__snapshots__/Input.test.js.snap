@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Input/> renders Input correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-AxjAm dTemXD"
+  >
+    <label>
+      Amount
+    </label>
+    <div>
+      <input
+        autocomplete="off"
+        class="input-element"
+        name="amount"
+      />
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`<Input/> renders Input with error 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-AxjAm dTemXD"
+  >
+    <label>
+      Amount
+    </label>
+    <div>
+      <input
+        autocomplete="off"
+        class="input-element"
+        name="amount"
+      />
+      <p>
+        error
+      </p>
+    </div>
+  </div>
+</DocumentFragment>
+`;

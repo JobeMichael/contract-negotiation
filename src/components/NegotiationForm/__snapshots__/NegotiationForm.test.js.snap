@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<NegotiationForm/> renders NegotiationForm properly 1`] = `
+<body>
+  <div>
+    <div>
+      <form>
+        <div
+          class="sc-AxiKw bJLBAq"
+        >
+          <div
+            class="sc-AxirZ iYVKFQ"
+          >
+            <label>
+              Amount
+            </label>
+            <div>
+              <input
+                autocomplete="off"
+                class="input-element"
+                data-testid="input-field"
+                name="employer"
+                type="number"
+                value=""
+              />
+            </div>
+          </div>
+          <button
+            class="sc-AxjAm chZpQe button"
+            data-testid="button-submit"
+            type="submit"
+          >
+            Submit
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+</body>
+`;

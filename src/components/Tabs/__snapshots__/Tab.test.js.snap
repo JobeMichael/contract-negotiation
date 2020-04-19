@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<NegotiationForm/> should renders NegotiationForm properly 1`] = `
+<body>
+  <div>
+    <div
+      class="sc-AxirZ hlnYRa"
+    >
+      <button
+        class="sc-AxjAm fAvqRA"
+        data-active="true"
+      >
+        Employer
+      </button>
+      <button
+        class="sc-AxjAm jEALMi"
+        data-active="false"
+      >
+        Employee
+      </button>
+    </div>
+    <p />
+    <div>
+      <h1>
+        Children
+      </h1>
+      &gt;
+    </div>
+  </div>
+</body>
+`;

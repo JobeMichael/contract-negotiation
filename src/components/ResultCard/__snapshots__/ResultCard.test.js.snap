@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ResultCard/> renders ResultCard correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-AxhCb fSeUtm"
+  />
+  <div
+    class="sc-AxjAm fuyJBj"
+  >
+    <div
+      class="sc-AxhUy jkkAyo"
+    >
+      <a>
+        Close
+      </a>
+    </div>
+    <div
+      class="sc-AxirZ kZUdNH"
+    >
+      <div
+        class="sc-AxgMl eZymPG"
+      >
+        Loading weather...
+      </div>
+      <div
+        class="sc-AxheI enektj"
+      >
+        <h2
+          class="valid"
+        >
+          Success
+        </h2>
+      </div>
+      <p>
+        Maximum Offer was 
+        <b>
+          $ 5
+        </b>
+      </p>
+      <p>
+        Minimum expected salary was 
+        <b>
+          $ 2
+        </b>
+      </p>
+    </div>
+  </div>
+</DocumentFragment>
+`;
