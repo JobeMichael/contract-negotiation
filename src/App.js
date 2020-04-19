@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./App.css";
+import * as Styled from "./App.styled";
 import NegotiationForm from "./components/NegotiationForm/NegotiationForm";
 import ResultCard from "./components/ResultCard/ResultCard";
 import Tabs from "./components/Tabs/Tabs";
@@ -22,7 +22,7 @@ const App = () => {
   return (
     <appContext.Provider value={context}>
       <div id="app-modal" />
-      <div className="App">
+      <Styled.AppWrapper className="App">
         <Tabs>
           <NegotiationForm setOpenResultCard={setOpenResultCard} />
         </Tabs>
@@ -33,7 +33,7 @@ const App = () => {
             employerInput={employerInput}
           />
         )}
-      </div>
+      </Styled.AppWrapper>
     </appContext.Provider>
   );
 };
