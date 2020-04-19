@@ -45,5 +45,5 @@
   "devDependencies": {
     "moxios": "^0.4.0"
   },
-  "proxy": "https://samples.openweathermap.org"
+  "homepage": "https://jobemichael.github.io/76c34cf7/"
 }
