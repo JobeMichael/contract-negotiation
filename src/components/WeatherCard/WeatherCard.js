@@ -4,22 +4,20 @@ import getUrl from "../../helper/getUrl";
 import * as Styled from "./WeatherCard.styles";
 
 const WeatherCard = () => {
-  const [weatherData, setWeatherData] = useState();
   const [loading, setLoading] = useState(false);
+  const [weatherData, setWeatherData] = useState();
 
   useEffect(() => {
     const getData = async () => {
-      setLoading(false);
-
-      const result = await axios.get(getUrl().weather);
-
-      setWeatherData(result.data.list);
       setLoading(true);
+      const result = await axios.get(getUrl().weather);
+      setWeatherData(result.data.list);
+      setLoading(false);
     };
     getData();
-  }, [setLoading]);
+  }, []);
 
-  if (!loading) {
+  if (loading || !weatherData) {
     return <Styled.Wrapper>Loading weather...</Styled.Wrapper>;
   }
 
