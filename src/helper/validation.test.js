@@ -1,7 +1,7 @@
 import validation from "./validation";
 
 const emptyMsg = "This field is required";
-const greatThanZeroMsg = "Amount should be greater than 0";
+const greatThanZeroMsg = "Add valid salary (min - 1)";
 
 describe("validation", () => {
   it("should return required field error for employer if it is empty", () => {

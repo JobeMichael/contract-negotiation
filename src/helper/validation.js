@@ -1,7 +1,7 @@
 export default function validate({ employer, employee }) {
   let errors = {};
   const emptyMsg = "This field is required";
-  const greatThanZeroMsg = "Amount should be greater than 0";
+  const greatThanZeroMsg = "Add valid salary (min - 1)";
 
   if (!employer) {
     errors.employer = emptyMsg;
